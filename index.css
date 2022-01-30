@@ -1,0 +1,333 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font size: 25px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    gap: 5vw;
+    padding-right: 5vh;
+    padding-top: 3vh;
+    color: black;
+    font-size: 1.2vw;
+}
+.container{
+    display: flex;
+    height:100vh;
+}
+
+.left-side{
+   width:35%;
+   margin-left: 5vw;
+   margin-right: 15vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end ;
+   gap: 35vh;
+   padding-bottom: 5vh;
+  
+}
+.right-side{
+     width: 45%;
+     background-color: #DCDCDC;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh ;
+}
+
+.buttons{
+   display: flex;
+   gap: 5vw;
+   font-size: 0.7rem; 
+}
+
+.hire-me{
+   background-color: #1877F2;
+   padding: 2vh 3vw;
+   color:#fff;
+   font-size: 1rem;
+}
+.view-more{
+   border: 1px solid black;
+   padding: 2vh 3vw;
+   color:black;
+   font-size: 1rem;
+}
+
+.text1{
+   font-size: 3rem;
+}
+
+.text2{
+   font-size: 3rem;
+   color: #6F63F8;
+}
+
+.main-text{
+    font-size: larger;
+    font-size: 1.2rem;
+}
+
+.text3{
+    font-size: 1.2rem;
+}
+
+.socials{
+    display: flex;
+    gap: 1.5vw;
+}
+
+.main-img{
+    position: absolute;
+    left: 65%;
+    top: 24%;
+}
+
+.ornament{
+    position: absolute;
+    left: 92.5%;
+    top: 10.9%;
+}
+
+.ornament1{
+    position: absolute;
+    right: 40%;
+    top: 70%;
+}
+
+.left-side1{
+    width:35%;
+    margin-left: 5vw;
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end ;
+    gap: 35vh;
+    padding-bottom: 5vh;
+}
+
+.img2{
+    position: absolute;
+    left: 13%;
+    top: 115%;
+}
+
+.ornament2{
+    position: absolute;
+    left: 15%;
+    top: 98%;
+}
+
+.right-side1{
+    padding-top: 20vh;
+    padding-left: 10vw;
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+
+.content1{
+    font-size: 1.5rem;
+}
+
+.exp{
+    display: flex;
+    gap: 1vw;
+}
+
+.exp1, .exp2{
+    font-size: 3rem;
+    color: #291eaf;
+    font-weight: bold;
+
+}
+
+.exp1-content, .exp2-content{
+    font-size: 2rem;
+    
+}
+
+.button2{
+    font-size: 1.5rem;
+    background-color: #291eaf;
+    padding: 2vh 3vw;
+    color:#fff;
+    padding: 22px;
+    box-shadow: -7px -4px 10px rgba(70, 69, 69, 0.29),
+    7px 4px 10px rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+}
+
+.skills{
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.cards{
+    padding-top: 5vh;
+    padding-left: 15vh;
+    display: flex;
+    gap: 12.5vw;
+}
+
+.card1{
+    background-color: #2a1eaf54;
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.card2{
+    background-color: #f9f9f9;
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+    box-shadow:  -7px -4px 10px rgba(70, 69, 69, 0.29),
+    7px 4px 10px rgba(0, 0, 0, 0.28);
+}
+
+.card3{
+    background-color: #2a1eaf54;
+    height: 40vh;
+    width: 15vw;
+    border-radius: 10px;
+}
+
+.card1text, .card2text, .card3text{
+    margin-top: 10vh;
+    margin-left: 2vw;
+    font-size: 2rem;
+}
+
+.arrow1, .arrow2, .arrow3{
+    font-size: 2rem;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    color: #291eaf;
+}
+
+.arrow1, .arrow3{
+    font-size: xx-large;
+}
+
+.projects{
+    font-size: 2.7rem;
+    padding-top: 15vh;
+    text-align: center;
+}
+
+.projectcards{
+    padding-top: 5vh;
+    padding-left: 20vw;
+    display: flex;
+    gap: 20vw;
+}
+
+.pcard1, .pcard2{
+    background-color: #f9f9f9;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: -7px -4px 10px rgba(70, 69, 69, 0.29),
+    7px 4px 10px rgba(0, 0, 0, 0.28);
+}
+
+.p1detail, .p2detail{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30vh;
+    margin-left: 2vw;
+}
+
+.p1detail2, .p2detail2{
+    margin-left: 2vw;
+}
+
+.p1detail3, .p2detail3{
+    margin-left: 2vw;
+    color: red;
+}
+
+.form{
+    padding-top: 15vh;
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.container4{
+    display: flex;
+}
+
+.formdetails{
+    width: 32%;
+    padding-top: 10vh;
+    padding-left: 3vw;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.box1, .box2, .box3{
+    background-color:#C5DEFF;
+    color: #C5DEFF;
+    font-size: 2rem;
+}
+
+.box4{
+    background-color: #C5DEFF;
+    font-size: 7rem;
+    color: #C5DEFF;
+}
+
+.formbutton{
+    margin-left: 5vw;
+    margin-top: 3vh;
+    text-align: center;
+    margin-right: 8vw;
+    font-size: 1.2rem;
+    background-color: #1877F2;
+    padding: 2vh 3vw;
+    color:#fff;
+    box-shadow: -7px -4px 10px rgba(70, 69, 69, 0.29),
+    7px 4px 10px rgba(0, 0, 0, 0.28);
+    margin-bottom: 10vh;
+}
+
+.orna{
+    position: absolute;
+    left: 83.4%;
+}
+.orna2{
+    position: absolute;
+    right: 50%;
+    top: 60%;
+}
+
+.container5{
+    padding-top: 20vh;
+}
+
+.footer{
+    background-color: #C5DEFF;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.f1{
+    letter-spacing: 2vw;
+}
+
+.f2{
+    display: flex;
+    gap: 3vw;
+    margin-left: 42vw;
+}
